@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Storms</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Storms</string>
+    <string name="getstormsbtn">Get Storms</string>
+    <string name="locationtxt">location</string>
+    <string name="getstorms">Get Storms</string>
+
+</resources>

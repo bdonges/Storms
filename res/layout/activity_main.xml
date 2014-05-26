@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="14dp"
+        android:text="@string/getstorms" />
+
+    <TableLayout
+        android:id="@+id/myTableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:fitsSystemWindows="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:stretchColumns="0">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:showDividers="beginning|middle|end" >
+            
+            <TextView
+            	android:id="@+id/TextView01"
+            	android:layout_height="wrap_content"
+            	android:layout_width="0px"
+            	android:layout_weight="0.2"
+            	android:gravity="left" />
+            
+            <TextView
+            	android:id="@+id/TextView02"
+            	android:layout_height="wrap_content"
+            	android:layout_width="0px"
+            	android:layout_weight="0.8"
+            	android:gravity="left" />	
+            
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="48dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="@string/locationtxt" />
+
+</RelativeLayout>
